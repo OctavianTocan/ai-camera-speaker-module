@@ -1,0 +1,18 @@
+[project]
+name = "ai-camera-speaker-module"
+version = "0.1.0"
+description = "Goofy Spanish AI security cam loop using LiteLLM + Gemini + ElevenLabs"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "litellm",
+  "opencv-python",
+  "numpy",
+  "sounddevice",
+  "soundfile",
+  "python-dotenv",
+  "elevenlabs",
+]
+
+[tool.uv]
+package = false
